@@ -4,6 +4,7 @@ import Paper from '@material-ui/core/Paper';
 import Grid from '@material-ui/core/Grid';
 import Fab from '@material-ui/core/Fab';
 import Typography from '@material-ui/core/Typography';
+
 class App extends Component {
  constructor() {
     super();
@@ -82,10 +83,10 @@ class App extends Component {
     return (
     <div id="my_game">
       <div id="head">
-        <Grid item xs container direction="column" spacing={28}>
+        <Grid item xs container direction="column">
           <Grid item xs>
             <Typography gutterBottom variant="subtitle1">
-              <h2>Tik tak toe</h2>
+              Tic tac toe
             </Typography>
           </Grid>
         </Grid>
@@ -110,10 +111,8 @@ class App extends Component {
           <div>
             <span>
               <Paper id="status" elevation={1}>
-                <Typography component="p">
-                  <center>
-                  {this.state.winnerLine}
-                  </center>
+                <Typography>
+                {this.state.winnerLine}
                 </Typography>
               </Paper>
             </span>

@@ -23,3 +23,4 @@ players play with computers,
 only issue positions randomly for computers.
 
 by ilham ramadhan.
+deploy firebase : https://tiktaktoe-d5961.firebaseapp.com/
