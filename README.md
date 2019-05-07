@@ -18,9 +18,8 @@ The page will reload if you make edits.<br>
 You will also see any lint errors in the console.
 
 ### deficiency
-the application does not have an algorithm.
-players play with computers,
-only issue positions randomly for computers.
+the application not have an algorithm.
+players play with computers, and the computers only issue positions randomly for 
 
 by ilham ramadhan.
 deploy firebase : https://tiktaktoe-d5961.firebaseapp.com/
